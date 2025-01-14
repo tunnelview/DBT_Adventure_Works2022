@@ -1,6 +1,8 @@
 --Who are the top 10 customers by total lifetime sales revenue?
 --This is the staging model.
 
+{{ config(materialized='table') }}
+
 with stg_customers as (
 SELECT
     CustomerID AS customer_id,
