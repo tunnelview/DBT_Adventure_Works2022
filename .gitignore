@@ -4,3 +4,4 @@ dbt_packages/
 logs/
 myenv/
 dbt-env/
+profile.yml
